@@ -1,0 +1,134 @@
+body
+   font-family: 'DIN 2014', sans-serif
+   background: #ffff
+   font-weight: 400
+   font-size: 16px
+   line-height: 100%
+   color: #000000
+a
+   text-decoration: none
+   box-sizing: border-box
+   transition: 0.5s !important
+   &:hover 
+      color: $green
+.container
+   padding: 0 15px
+   max-width: 1255px
+   margin: 0 auto
+   @media ( max-width: 1199px )
+      max-width: 960px
+   @media (max-width: 991px)
+      max-width: 720px
+   @media (max-width: 767px)
+      max-width: 540px
+.d-flex, .q
+   display: flex
+.body-wrap
+   overflow: hidden
+   position: relative
+   display: flex
+   flex-direction: column
+   min-height: 100vh
+footer
+   margin-top: auto
+h1
+   color: rgb(255, 255, 255)
+   font-size: 56px
+   font-weight: 700
+   line-height: 150%
+   margin: 0
+   margin-bottom: 5px
+   sup 
+      font-size: 42px
+h2 
+   margin: 0
+   color: rgb(50, 51, 51)
+   font-size: 40px
+   font-weight: 700
+   line-height: 150%
+   text-transform: uppercase
+   sup 
+      font-size: 34px
+ul 
+   margin: 0
+   padding: 0
+   list-style-type: none
+p
+   margin: 0
+.svg, rect, line, circle
+   transition: 0.5s ease
+a
+   transition: color 0.5s ease
+   box-sizing: border-box
+li
+   a
+      transition: color 0.5s ease
+button
+   cursor: pointer
+   box-sizing: border-box
+textarea
+   transition: border 0.5s
+   box-sizing: border-box
+   &:focus
+      transition: border 0.5s
+      outline: none
+      border: 1px solid $green
+input
+   transition: 0.5s
+   box-sizing: border-box
+   border: 1px solid #fff
+   &:disabled
+      pointer-events: none
+      opacity: 0.5
+   &:focus 
+      border: 1px solid $green 
+      transition: 0.5s
+   &:focus-visible
+      outline: initial
+path
+   transition: fill 0.5s, stroke 0.5s
+div 
+   box-sizing: border-box
+.icon 
+   transition: fill 0.5s, stroke 0.5s
+html * 
+   scrollbar-width: thin
+   scrollbar-color: blue $green
+.tabs__nav
+   scrollbar-width: thin
+   scrollbar-color: transparent transparent
+*::-webkit-scrollbar,
+html *::-webkit-scrollbar 
+   height: 7px
+   width: 7px
+*::-webkit-scrollbar-track,
+html *::-webkit-scrollbar-track 
+   background: #E7E7E7
+   border-radius: 3px
+*::-webkit-scrollbar-thumb,
+html *::-webkit-scrollbar-thumb 
+   background-color: $green
+   border-radius: 6px
+.btn 
+   display: flex
+   align-items: center
+   justify-content: center
+   transition: 0.5s
+   width: 227px
+   height: 60px
+   border-radius: 1515px
+   background: rgb(255, 255, 255)
+   color: rgb(73, 191, 222)
+   font-size: 20px
+   font-weight: 700
+   line-height: 150%
+   text-transform: uppercase
+   border: 2px solid transparent
+   .svg 
+      margin-right: 12px
+   &:hover 
+      opacity: 0.7
+   &_2
+      border-radius: 1515px
+      background: rgb(112, 202, 226)
+      color: white !important

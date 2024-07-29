@@ -1,0 +1,620 @@
+@media screen and (max-width: 1600px)
+   h1 
+      font-size: 50px
+   .plug__content
+      margin-right: 4%
+   .plug__content p
+      font-size: 19px
+@media screen and (max-width: 1350px)
+   h1 
+      font-size: 47px
+@media screen and (max-width: 1199px)
+   .plug__box
+      flex-direction: column-reverse
+      align-items: center
+   .plug 
+      height: 100% 
+      padding-bottom: 50px
+   .plug__content
+      margin-right: 0
+      margin-left: 0
+      margin-top: 60px
+      margin-bottom: 40px
+      text-align: center
+      p 
+         border-left: none 
+         padding-left: 0
+   .menu-btn 
+      width: 48px
+      height: 24px
+      position: absolute
+      right: 34px
+      background: url(/img/menu.svg) no-repeat center center
+      top: 44px
+      z-index: 11
+      overflow: hidden
+   .menu-btn span 
+      width: 38px
+      height: 2px
+      position: absolute
+      top: 50%
+      opacity: 0
+      left: 50%
+      transform: translate(-50%, -50%)
+      background-color: $green
+      transition: all 0.5s
+   .menu-btn span:nth-of-type(2) 
+      top: calc(50% - 8.5px)
+      width: 38px
+      height: 2px
+   .menu-btn span:nth-of-type(3) 
+      top: calc(50% + 9.4px)
+      width: 38px
+      height: 2px
+   .menu 
+      position: fixed
+      top: 0
+      right: 0
+      width: 40%
+      height: 100%
+      padding: 60px 40px 40px
+      background: white
+      transform: translateX(500%)
+      transition: transform 0.5s
+      z-index: 7
+      overflow: hidden
+      -webkit-box-shadow: -11px 0px 28px -12px rgba(0,0,0,0.75)
+      -moz-box-shadow: -11px 0px 28px -12px rgba(0,0,0,0.75)
+      box-shadow: -11px 0px 28px -12px rgba(0,0,0,0.75)
+      ul 
+         li 
+            margin-bottom: 30px
+            a 
+               font-size: 18px
+               text-transform: uppercase
+               color: #000
+   .menu.active
+      transform: translateX(0)
+   .menu-btn.active 
+      overflow: visible
+      position: fixed
+      background: transparent
+      right: 30px
+      top: 30px
+      span 
+         opacity: 1
+   .menu-btn.active span:nth-of-type(1) 
+      display: none
+   .menu-btn.active span:nth-of-type(2) 
+      top: 50%
+      width: 24px
+      transform: translate(-50%, 0%) rotate(45deg)
+      margin-left: 0
+   .menu-btn.active span:nth-of-type(3) 
+      width: 24px
+      top: 50%
+      transform: translate(-50%, 0%) rotate(-44deg)
+      margin-left: 0
+   .menu-btn, .menu
+      display: block
+   .nav__box ul 
+      display: none
+   .header__box
+      margin-top: 0px
+      padding-top: 300px
+   .header__fig_1 
+      top: -82px
+      left: 92px
+      z-index: 2
+      transform: inherit !important
+      width: 70%
+   .header__fig_2 
+      top: 12px
+      left: inherit
+      bottom: inherit
+      right: 15px
+      width: 70%
+      transform: inherit !important
+   .header__content 
+      width: 100%
+      max-width: 582px
+      padding-bottom: 74px
+      margin-left: 0
+      margin-top: 300px
+   .header__fig_4 
+      top: -152px
+      right: 0
+      width: 120px
+   .header__fig_3 
+      top: -33px
+      left: inherit
+      width: 120px
+      right: 202px
+   .van__item
+      height: auto
+   .van__item p 
+      br 
+         display: none
+   .van-wrap
+      flex-direction: column 
+      align-items: center
+   .van-wrap__left img
+      margin: -5px auto 25px
+      display: block
+   .van-wrap__right
+      max-width: 65%
+      br 
+         display: none
+   .van-wrap__block p
+      max-width: 100%
+   .rev .tabs__nav a
+      margin-bottom: 20px
+   .rev .tabs__nav
+      margin: 30px auto 34px
+   .rev .ser__arr
+      top: 64%
+      z-index: 5
+   .swiper-button-prev2, .swiper-button-prev22, .swiper-button-prev222, .swiper-button-prev2222, .swiper-button-prev1
+      left: 18px
+   .swiper-button-next2, .swiper-button-next22, .swiper-button-next222, .swiper-button-next2222, .swiper-button-next1
+      right: 18px
+   .tabs__nav a
+      min-width: inherit !important
+   .use__top
+      padding-top: 450px
+   .use:after
+      top: 500px
+   .use__man 
+      position: absolute
+      right: 0
+      bottom: inherit
+      z-index: 0
+      top: 0
+      width: 72%
+   .use__video
+      top: 21%
+   .use__fig1 
+      top: 472px
+      right: inherit
+      left: 41px
+      width: 140px
+   .use__fig2 
+      top: 394px
+      right: 33px
+      width: 140px
+   .use__block
+      margin-right: 20px
+   .faq .accordeon .panel__text .panel__info
+      font-size: 16px
+      line-height: 150% 
+      br 
+        display: none
+   .faq .accordeon__button
+      font-size: 24px 
+   .buy__box
+      padding: 50px 0 410px
+   .buy 
+      padding: 0
+   .buy__content p
+      margin: 10px 0 25px
+   .buy__pic 
+      right: 50%
+      top: inherit
+      margin-right: -250px
+      bottom: 26px
+      width: 500px
+   .buy__row
+      max-width: 100%
+   .buy__content
+      max-width: 100%
+   .buy__block
+      width: 49%
+   .buy__fig_1 
+      top: inherit
+      left: initial
+      width: 93px
+      right: 97px
+      bottom: 296px
+   .buy__fig_2 
+      top: initial
+      right: 180px
+      width: 170px
+      bottom: 40px
+      z-index: 2
+   .buy__fig_3 
+      bottom: 200px
+      right: inherit
+      width: 130px
+      left: 34px
+   .footer__top
+      flex-direction: column 
+      align-items: center
+      text-align: center
+   .footer__left
+      margin-right: 0
+      margin-bottom: 30px
+   .footer__right
+      margin: 30px auto 20px
+   .footer__bottom ul
+      flex-direction: column 
+      justify-content: center
+      align-items: center
+      text-align: center
+      li 
+         margin-right: 0
+         margin-bottom: 18px
+@media ( max-width: 991px )
+   input, textarea, select
+      -webkit-appearance: none
+      -moz-appearance: none
+      appearance: none
+   .plug__box
+      padding: 0 20px
+      img 
+         width: 100%
+   h1 
+      font-size: 29px
+   .plug__content p
+      font-size: 17px
+      margin-top: 20px
+   .plug
+      padding-bottom: 150px
+   .header 
+      border-radius: 0px 0px 60px 60px
+   .header__content
+      margin-top: 113px
+   .van__item
+      width: 48%
+   .van-wrap__right
+      max-width: 100%
+   h2 
+      font-size: 30px
+   .use .tabs__nav
+      margin-bottom: 40px
+   .use__top
+      padding-top: 350px
+   .use__bottom
+      padding: 40px 20px 20px
+      flex-direction: column
+      align-items: center
+   .use__item
+      margin-bottom: 40px
+      width: 100%
+   .use__info
+      width: 100%
+      max-width: 60%
+   .use__block
+      height: auto
+   .faq .accordeon__button:after
+      right: 20px
+   .faq .accordeon__button
+      padding-left: 20px
+   .faq .accordeon .panel__text
+      padding-left: 20px
+   .swiper-button-next2, .swiper-button-next22, .swiper-button-next222, .swiper-button-next2222, .swiper-button-next1
+      z-index: 3
+   .swiper-button-prev2, .swiper-button-prev22, .swiper-button-prev222, .swiper-button-prev2222, .swiper-button-prev1
+      z-index: 3
+   .ser__arr
+      top: 51%
+   .footer__sub
+      font-size: 18px
+      line-height: 140%
+   .van__item h3
+      font-size: 20px
+   .ser h2
+      margin-bottom: 45px
+   .ser .swiper1 .swiper-slide
+      height: max-content
+   .footer__sub, .buy__content p
+      br 
+         display: none
+   h1 sup
+      font-size: 26px
+@media screen and (max-width: 767px)
+   .header__box
+      padding-top: 240px
+   .header__fig_1 
+      top: -51px
+      left: 71px
+   .van__item
+      width: 100%
+   .van-wrap__left img
+      width: 100%
+   .van-wrap__left p
+      font-size: 18px
+      margin-top: 5px
+      line-height: 147%
+      br 
+         display: none
+   .van-wrap__block span
+      font-size: 169px
+   .van-wrap__block p
+      font-size: 16px
+   h2 
+      font-size: 26px
+      font-weight: 700
+      line-height: 110%
+   h2 sup
+      font-size: 23px
+   .use .tabs__nav a
+      height: 50px
+      font-size: 16px
+      padding: 0 20px
+      margin: 7px
+   .rev .ser__arr
+      top: 59%
+   .use__video
+      width: 66px
+      height: 66px
+      .svg 
+         height: 100%
+         width: 100%
+   .use__top
+      padding: 350px 20px 40px
+   .use__content p
+      font-size: 16px
+      margin-bottom: 25px
+   .use__item p
+      font-size: 16px
+   .faq .accordeon__button
+      padding-right: 80px
+   .spec__block
+      width: 100%
+      padding: 35px 30px 50px
+   .spec__block p
+      margin-bottom: 25px
+      br 
+         display: none
+   .spec__block a
+      font-size: 18px
+   .ser .swiper1
+      a 
+         display: block
+         width: 100%
+         height: 100%
+   .menu
+      width: 100%
+      padding-left: 20px
+@media screen and (max-width: 576px)
+   button:active, button:focus 
+      outline: none
+   button::-moz-focus-inner 
+      border: 0
+   a:active, a:focus
+      outline: none
+   input, textarea
+      outline: none
+   input:active, textarea:active
+      outline: none
+   input:focusout
+      outline: none
+   .mm 
+      flex-direction: column 
+      align-items: center
+      justify-content: center
+      li 
+         margin-bottom: 40px !important
+         width: 100% !important
+         margin-top: 0 !important
+   .mob 
+      display: block !important
+   .nav__logo
+      width: 141px
+   .menu-btn
+      right: 13px
+      top: 28px
+   .menu-btn.active
+      right: 20px
+      top: 20px
+   .header__fig_1 
+      top: 9px
+      left: 1px
+      width: 320px
+   .header__fig_2
+      top: 94px
+      right: -16px
+      width: 358px
+   .header__content p
+      font-size: 16px
+      margin-bottom: 22px
+      width: 100%
+      max-width: 300px
+      line-height: 120% 
+      br 
+         display: none
+   .header__content
+      padding-left: 17px
+   h1 
+      font-size: 35px
+   h1 sup
+      font-size: 34px
+      top: -2px
+      left: 2px
+   .header__btn
+      width: 192px
+      height: 50px
+   .header__fig_3
+      top: 22px
+      right: 56px
+   .header__fig_4 
+      top: -158px
+      right: 38px
+      width: 135px
+   h2 sup
+      top: -2px
+      left: 2px
+   .van__item
+      height: 300px
+      margin-bottom: 48px
+      h3
+         font-size: 23px
+         margin: 21px 0 18px
+   .van__item p
+      font-size: 18px
+   .van__see 
+      display: none
+   .van__open 
+      display: block
+      text-align: center
+      margin-bottom: 60px
+      margin-top: -20px
+   .van-wrap
+      border-radius: 0px 
+      overflow: visible
+      position: relative
+      padding: 20px 0 60px
+      &:before 
+         content: ""
+         display: block
+         height: 100%
+         background: $green
+         width: 500%
+         left: -500%
+         position: absolute
+         top: 0
+      &:after
+         content: ""
+         display: block
+         height: 100%
+         background: $green
+         width: 500%
+         right: -500%
+         position: absolute
+         top: 0
+   .van-wrap__left img
+      width: 298px
+   .van-wrap__left
+      h2, p 
+         margin-left: 20px
+   .van-wrap__block
+      border-radius: 20px
+   .van-wrap__block p
+      max-width: 300px
+   .rev
+      padding: 10px 0 40px
+   .rev__block
+      height: 396px
+   .rev .tabs__nav
+      justify-content: flex-start !important
+      overflow-x: auto !important
+      flex-wrap: nowrap !important
+      a 
+         white-space: nowrap
+         margin: 0 15px 0 0 !important
+   .rev .ser__arr
+      top: 54%
+   .use h2
+      margin-bottom: 25px
+   .use .tabs__nav
+      margin-bottom: 25px
+   .use__man
+      width: 325px
+   .use__top
+      padding: 350px 19px 40px
+      padding-top: 228px
+   .use__content h2
+      font-size: 28px
+   .use__btn
+      font-size: 18px
+   .use__fig2 
+      top: 375px
+      right: 19px
+      width: 91px
+   .use__fig1 
+      top: 435px
+      right: inherit
+      left: 26px
+      width: 94px
+   .use__video
+      top: 95px
+   .use__block
+      width: 104px
+      margin-top: 17px
+      img 
+         width: 100%
+   .use__item
+      align-items: flex-start
+      margin-bottom: 30px
+   .use__info
+      max-width: 69%
+   .faq .accordeon__button
+      line-height: 116%
+      padding: 20px 60px 20px 20px
+   .faq .accordeon__button:after
+      top: 40px
+   .faq .accordeon__button.active:after
+      top: 35px
+   .spec__block
+      margin-top: 92px
+      max-width: 365px 
+      width: 100%
+   .spec__block p
+      margin-bottom: 32px
+   .ser .swiper1
+      max-width: 295px
+   .ser .ser__arr 
+      top: 46%
+   .swiper-button-next1
+      right: 33px
+   .swiper-button-prev1
+      left: 33px
+   .ser .swiper1 p
+      margin-top: 25px
+   .ser 
+      padding-bottom: 90px
+   .buy
+      border-radius: 40px 40px 0px 0px
+      &__box 
+         padding-bottom: 442px
+   .buy__block
+      height: 58px
+   .buy__pic 
+      right: 50%
+      top: inherit
+      margin-right: -171px
+      bottom: 86px
+      width: 359px
+   .buy__fig_1 
+      top: inherit
+      left: initial
+      width: 73px
+      right: 30px
+      bottom: 321px
+   .buy__fig_2 
+      top: initial
+      right: -5px
+      width: 170px
+      bottom: 24px
+      z-index: 2
+   .buy__fig_3 
+      bottom: 272px
+      right: inherit
+      width: 103px
+      left: -3px
+   .footer
+      padding: 45px 0
+      &__left  img
+         width: 188px
+   .footer__left p
+      font-size: 19px
+      margin-top: 20px
+   .footer__right
+      br 
+         display: none
+   .footer__right p
+      margin-bottom: 46px
+   .footer__top
+      margin-bottom: 24px
+   .footer__sub
+      font-size: 14px
+      line-height: 20px
+   .footer__bottom ul
+      margin-bottom: 20px
+@media screen and (max-width: 390px)
+   .header__fig_1
+      left: -34px
+   .use__btn
+      width: 100%
+   .faq .accordeon__button
+      font-size: 22px
